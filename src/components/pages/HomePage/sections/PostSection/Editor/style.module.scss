@@ -1,0 +1,33 @@
+
+.wrapper {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 40px;
+  bottom: 40px;
+  left: 40px;
+  right: 40px;
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    background: rgba(255,255,255,1);
+    textarea {
+      margin: 20px 40px;
+    }
+    .header {
+      font-size: 1.5em;
+    }
+    .body {
+      font-size: 1em;
+    }
+  }
+}
+
+.alert {
+  border-color: red;
+}
